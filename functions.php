@@ -35,8 +35,7 @@ function getData()
 		FROM photo p
 	    INNER JOIN member_photo mp
 	    	ON p.photoId=mp.photoId
-	    	AND mp.galleryEnabled = 'yes'
-	    	AND mp.photoId < 2345786;
+	    	AND mp.galleryEnabled = 'yes';
 EOD;
 
 	/**
