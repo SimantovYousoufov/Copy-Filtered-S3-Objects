@@ -1,0 +1,7 @@
+copiedPhotos.log
+photo_migration_errors.log
+retrievedPhotos.log
+
+.project
+.sublimeproject
+.DS_Store
